@@ -11,10 +11,10 @@ import SwiftUI
 struct HeaderView: View{
     var body: some View{
         VStack(alignment: .leading, spacing: 4){
-            Text("Elige tu tinerario")
+            Text("Select your learning")
                 .font(.system(.largeTitle))
                 .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
-            Text("de aprendizaje")
+            Text("itinerary")
                 .font(.system(.largeTitle))
                 .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
         }

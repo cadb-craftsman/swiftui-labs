@@ -25,7 +25,8 @@ struct MainVStack: View {
     var body: some View{
         VStack{
             HeaderView()
-            CardsView()
+            HCardsView()
+            ZCardsView()
         }
     }
 }
