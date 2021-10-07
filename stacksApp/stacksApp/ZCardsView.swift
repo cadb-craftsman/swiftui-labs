@@ -11,7 +11,7 @@ import SwiftUI
 struct ZCardsView: View {
     var body: some View{
         VStack{
-            ZCardView(card: VCardView(title: "Definitive", price: "99.99€", description: "All courses", textColor: Color.black, backgroundColor: Color(red: 230/255, green: 230/255, blue: 230/255)), title: "Best choise in your life")
+            ZCardView(card: VCardView(title: "Definitive", price: "99.99€", description: "All courses", textColor: Color.white, backgroundColor: Color(red: 0/255, green: 0/255, blue: 0/255)), title: "Best choise in your life").padding(.horizontal)
         }
     }
 }
